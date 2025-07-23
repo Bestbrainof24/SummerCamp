@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MindConnect - Mental Health Support</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MindConnect</div>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">&#9776;</label>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#therapists">Therapists</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="dark-toggle" class="dark-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section home">
+    <div class="overlay">
+      <h1>Your Mental Health Matters</h1>
+      <p>Find certified therapists and talk to someone today.</p>
+      <a href="#therapists" class="btn">Meet Therapists</a>
+    </div>
+  </section>
+
+  <!-- Therapists -->
+  <section id="therapists" class="section therapists">
+    <h2>Available Therapists</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1550525811-e5869dd03032?fit=crop&w=600&h=400" alt="Therapist 1" /> 
+        <h3>Dr. Jane Smith</h3>
+        <p>Specialist in anxiety, depression, teen therapy.</p>
+      </div>
+      <div class="card">
+        <img src="therapist 2.avif" alt="Therapist 2" />
+        <h3>Dr. Mark Lee</h3>
+        <p>Focus on stress, burnout, and emotional well-being.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews" class="section reviews">
+    <h2>What Our Users Say</h2>
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="review">
+          <p>“MindConnect helped me when I was at my lowest. Talking to someone made a huge difference.”</p>
+          <span>— Sarah, 18</span>
+        </div>
+        <div class="review">
+          <p>“Very professional therapists. The booking process is smooth and fast.”</p>
+          <span>— Alex, 22</span>
+        </div>
+        <div class="review active">
+          <p>“Great platform for finding support. I recommend it to everyone struggling.”</p>
+          <span>— Lina, 16</span>
+        </div>
+        <div class="review">
+          <p>“After just 3 sessions I noticed significant improvement in my anxiety. Highly recommend!”</p>
+          <span>— Michael, 25</span>
+        </div>
+        <div class="review">
+          <p>“The therapists are compassionate and understanding. Best mental health resource I've found.”</p>
+          <span>— Priya, 19</span>
+        </div>
+        <div class="review">
+          <p>“Affordable and accessible mental health care when I needed it most.”</p>
+          <span>— David, 30</span>
+        </div>
+      </div>
+      <button class="carousel-btn prev">❮</button>
+      <button class="carousel-btn next">❯</button>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 MindConnect. All rights reserved.</p>
+  </footer>
+
+  <!-- Scroll Arrows -->
+  <div class="scroll-arrows">
+    <button id="scroll-up">⬆️</button>
+    <button id="scroll-down">⬇️</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
